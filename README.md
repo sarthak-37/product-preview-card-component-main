@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./output/output-laptop.png)
+![](output/output-laptop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/product-preview-card-component-tVxQPpBinB))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://sarthak-37.github.io/product-preview-card-component-main/))
 
 ## My process
 
