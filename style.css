@@ -1,0 +1,155 @@
+:root{
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  width: 50%;
+  max-height: 1000px;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.textRight{
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.logoImg{
+  max-width: 100%;
+  width: 900px;
+  height: 100%;
+}
+
+.perfume{
+  text-transform: capitalize;
+  letter-spacing: 0.4em;
+  color: var(--Dark-grayish-blue);
+  margin-bottom: 16px;
+}
+
+.heading{
+  color: var(--very-dark-blue);
+  font-family: 'Fraunces', serif;
+  line-height: 1.2em;
+  margin-bottom: 16px;
+}
+
+.info{
+  color: var(--Dark-grayish-blue);
+  margin-bottom: 16px;
+}
+
+.prices{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.actualPrice{
+  color: var(--Dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+.sellingPrice{
+  color: var(--dark-cyan);
+  margin-right: 16px;
+  font-family: 'Fraunces', serif;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-cyan);
+  border: 0;
+  padding: 10px 20px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+button:active{
+  background-color: hsl(158, 51%, 14%);
+}
+
+.cartIcon{
+  margin-right: 10px;
+}
+
+
+footer{
+  margin-top: 60px;
+}
+
+.attribution{
+ font-size: 11px; text-align: center;
+}
+    
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media(max-width:768px){
+  body{
+    padding-top: 20px;
+  }
+
+  .card{
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .logoImg{
+    max-width: 100%;
+    width: 900px;
+    height: 240px;
+    object-fit: cover;
+    object-position: 0 -110px;
+  }
+  
+  .imgLeft{
+    overflow: hidden;
+  }
+
+  footer{
+    margin-top: 20px;
+  }
+
+
+}
