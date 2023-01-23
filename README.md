@@ -6,7 +6,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -27,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/product-preview-card-component-tVxQPpBinB))
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://sarthak-37.github.io/product-preview-card-component-main/))
+- Solution URL: https://www.frontendmentor.io/solutions/product-preview-card-component-tVxQPpBinB
+- Live Site URL: https://sarthak-37.github.io/product-preview-card-component-main/
 
 ## My process
 
