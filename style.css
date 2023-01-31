@@ -1,18 +1,10 @@
-:root{
-  --dark-cyan: hsl(158, 36%, 37%);
-  --cream: hsl(30, 38%, 92%);
-  --very-dark-blue: hsl(212, 21%, 14%);
-  --Dark-grayish-blue: hsl(228, 12%, 48%);
-  --white: hsl(0, 0%, 100%);
-}
-
 *{
   margin: 0;
   padding: 0;
 }
 
 body{
-  background-color: var(--cream);
+  background-color: hsl(30, 38%, 92%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +20,7 @@ p{
 .card{
   display: flex;
   justify-content: center;
-  background-color: var(--white);
+  background-color: hsl(0, 0%, 100%);
   width: 50%;
   max-height: 1000px;
   max-width: 600px;
@@ -53,19 +45,19 @@ p{
 .perfume{
   text-transform: capitalize;
   letter-spacing: 0.4em;
-  color: var(--Dark-grayish-blue);
+  color: hsl(228, 12%, 48%);
   margin-bottom: 16px;
 }
 
 .heading{
-  color: var(--very-dark-blue);
+  color: hsl(212, 21%, 14%);
   font-family: 'Fraunces', serif;
   line-height: 1.2em;
   margin-bottom: 16px;
 }
 
 .info{
-  color: var(--Dark-grayish-blue);
+  color: hsl(228, 12%, 48%);
   margin-bottom: 16px;
 }
 
@@ -76,12 +68,12 @@ p{
 }
 
 .actualPrice{
-  color: var(--Dark-grayish-blue);
+  color: hsl(212, 21%, 14%);
   text-decoration: line-through;
 }
 
 .sellingPrice{
-  color: var(--dark-cyan);
+  color: hsl(158, 36%, 37%);
   margin-right: 16px;
   font-family: 'Fraunces', serif;
 }
@@ -90,7 +82,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-cyan);
+  background-color: hsl(158, 36%, 37%);
   border: 0;
   padding: 10px 20px;
   width: 100%;
@@ -98,7 +90,7 @@ button{
   cursor: pointer;
   margin: 0 auto;
   border-radius: 10px;
-  color: var(--white);
+  color: hsl(0, 0%, 100%);
   font-weight: bold;
 }
 
@@ -110,6 +102,9 @@ button:active{
   margin-right: 10px;
 }
 
+.buyButton{
+  padding: 14px 0;
+}
 
 footer{
   margin-top: 60px;
